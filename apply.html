@@ -1,0 +1,564 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bio Worker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid ">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-7">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">home</a></li>
+                                            <li><a href="about.html">about</a></li>
+                                            <li><a href="service.html">services</a></li>
+                                            <li><a href="FAQ.html">FAQ</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="Appointment">
+                                    <div class="phone_num d-none d-xl-block">
+                                        <a href="#"> <i class="fa fa-phone"></i> +10 673 567 367</a>
+                                    </div>
+                                    <!-- <div class="d-none d-lg-block">
+                                        <a class="boxed-btn4" href="apply.html">Apply for a Loan</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- bradcam_area  -->
+    <div class="bradcam_area bradcam_bg_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3>Apply Now</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ bradcam_area  -->
+
+    <!-- apply_form_area -->
+    <div class="apply_form_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form id="submit-form" class="apply_form">
+                        <!-- Warning Message Box -->
+                        <div id="warning-message" style="display:none; color: red; margin-bottom: 20px;"></div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="apply_info_text text-center">
+                                    <h3>Contact Information</h3>
+                                    <p>Please provide your contact details below:</p>
+                                </div>
+                            </div>
+
+                            <!-- First Name -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="first_name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Name" required>
+                                </div>
+                            </div>
+
+                            <!-- Company Name (if applicable) -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="company_name">Company Name (if applicable)</label>
+                                    <input type="text" id="company_name" name="company_name" placeholder="Company Name">
+                                </div>
+                            </div>
+
+                            <!-- Phone Number -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="phone_num">Phone Number</label>
+                                    <input type="text" id="phone_num" name="phone" placeholder="Phone Number" required>
+                                </div>
+                            </div>
+
+                            <!-- Address Information -->
+                            <div class="col-lg-12">
+                                <div class="apply_info_text text-center">
+                                    <h3>Address</h3>
+                                </div>
+                            </div>
+
+                            <!-- Street Address 1 -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="street1">Street Address 1</label>
+                                    <input type="text" id="street1" name="street1" placeholder="Street Address 1"
+                                        required>
+                                </div>
+                            </div>
+
+                            <!-- Street Address 2 -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="street2">Street Address 2 (Optional)</label>
+                                    <input type="text" id="street2" name="street2" placeholder="Street Address 2">
+                                </div>
+                            </div>
+
+                            <!-- City -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="city">City</label>
+                                    <input type="text" id="city" name="city" placeholder="City" required>
+                                </div>
+                            </div>
+
+                            <!-- State -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" name="state" placeholder="State" required>
+                                </div>
+                            </div>
+
+                            <!-- Zip Code -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="zip">Zip Code</label>
+                                    <input type="text" id="zip" name="zip" placeholder="Zip Code" required>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="apply_info_text text-center">
+                                    <h3>Service Details</h3>
+                                </div>
+                            </div>
+
+                            <!-- Square Footage -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="square_footage">Estimated Square Footage</label>
+                                    <select class="wide" id="square_footage" name="square_footage" required>
+                                        <option value="" selected disabled>Select Square Footage</option>
+                                        <option value="Less than 1,000 sq ft">Less than 1,000 sq ft</option>
+                                        <option value="1,000 - 2,000 sq ft">1,000 - 2,000 sq ft</option>
+                                        <option value="2,000 - 3,000 sq ft">2,000 - 3,000 sq ft</option>
+                                        <option value="More than 3,000 sq ft">More than 3,000 sq ft</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Bedrooms Included -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="bedrooms">Bedrooms Included</label>
+                                    <select class="wide" id="bedrooms" name="bedrooms" required>
+                                        <option value="" selected disabled>Select Bedrooms</option>
+                                        <option value="1">1 Bedroom</option>
+                                        <option value="2">2 Bedrooms</option>
+                                        <option value="3">3 Bedrooms</option>
+                                        <option value="4">4 or more Bedrooms</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Bathrooms Included -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="bathrooms">Bathrooms Included</label>
+                                    <select class="wide" id="bathrooms" name="bathrooms" required>
+                                        <option value="" selected disabled>Select Bathrooms</option>
+                                        <option value="1">1 Bathroom</option>
+                                        <option value="2">2 Bathrooms</option>
+                                        <option value="3">3 Bathrooms</option>
+                                        <option value="4">4 or more Bathrooms</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Service Type -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="service_type">Service Type</label>
+                                    <select class="wide" id="service_type" name="service_type" required>
+                                        <option value="" selected disabled>Select Service Type</option>
+                                        <option value="Weekly">Weekly (Every Week)</option>
+                                        <option value="Biweekly">Biweekly (Every 2 Week)</option>
+                                        <option value="One-Time Deep Clean">One-Time Deep Clean</option>
+                                        <option value="Move-In/Move-Out clean">Move-In/Move-Out clean</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Service Date -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="service_date">When would you like services?</label>
+                                    <input type="date" id="service_date" name="service_date" placeholder="Select Date"
+                                        class="datepicker">
+                                </div>
+                            </div>
+
+                            <!-- Optional Add-On Services -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label>Optional Add-On Services (Optional)</label><br>
+                                    <div class="checkbox_field">
+                                        <input type="checkbox" id="refrigerator_cleaning" name="add_ons[]"
+                                            value="Interior Refrigerator Cleaning - $60">
+                                        <label for="refrigerator_cleaning">Interior Refrigerator Cleaning -
+                                            $60</label><br>
+
+                                        <input type="checkbox" id="oven_cleaning" name="add_ons[]"
+                                            value="Interior Oven Cleaning - $60 (per oven)">
+                                        <label for="oven_cleaning">Interior Oven Cleaning - $60 (per oven)</label><br>
+
+                                        <input type="checkbox" id="bed_sheets" name="add_ons[]"
+                                            value="Changing of Bed Sheets/Linens - $7 Per Bed (1 Mattress)">
+                                        <label for="bed_sheets">Changing of Bed Sheets/Linens - $7 Per Bed (1
+                                            Mattress)</label><br>
+
+                                        <input type="checkbox" id="bunk_bed_sheets" name="add_ons[]"
+                                            value="Changing of Bed Sheets/Linens on Bunkbed - $11 (2 Mattresses)">
+                                        <label for="bunk_bed_sheets">Changing of Bed Sheets/Linens on Bunkbed - $11 (2
+                                            Mattresses)</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="message">Additional details</label>
+                                    <textarea name="message" id="message" cols="30" rows="10"
+                                        placeholder="Additional details"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Referred by Someone (Optional) -->
+                            <div class="col-md-12">
+                                <div class="single_field">
+                                    <label for="referred_by">Referred by someone? (Optional)</label>
+                                    <input type="text" id="referred_by" name="referred_by" placeholder="">
+                                </div>
+                            </div>
+
+                            <!-- Loader (Place this just before the submit button) -->
+                            <div id="loader" style="display: none; text-align: center;">
+                                <img class="img-loader" src="img/Loader-32-Gif.gif" alt="Loading..." />
+                                <p>Submitting your information...</p>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="col-md-12">
+                                <div class="submit_btn">
+                                    <button class="boxed-btn3" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Modal for Form Submission Success -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Form Submitted Successfully!</h2>
+            <p>Thank you for submitting the form. We will contact you shortly.</p>
+            <button id="close-modal-btn" class="modal-btn">OK</button>
+        </div>
+    </div>
+
+    <!--/ apply_form_area -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-lg-3">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                            <div class="footer_logo">
+                                <a href="#">
+                                    <img src="img/footer_logo.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="ti-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-3">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.1s" data-wow-delay=".4s">
+                            <h3 class="footer_title">
+                                Contact
+                            </h3>
+                            <ul>
+                                <li><a href="#">info@bio-worker.com</a></li>
+                                <li><a href="#">+1 561 975 4056</a></li>
+                                <li><a href="#">1829 Cholla Ct - 46240 - Indianapolis, IN</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s">
+                            <h3 class="footer_title">
+                                Explore
+                            </h3>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#"> Contact</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".6s">
+                            <h3 class="footer_title">
+                                Have a Questions?
+                            </h3>
+                            <ul>
+                                <li><a href="+10 673 567 367">+10 673 567 367</a></li>
+                                <li><a href="#">Bioworker@support.com</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".3s">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- link that opens popup -->
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Prevent selection of past dates
+            const today = new Date().toISOString().split('T')[0];
+            $('#service_date').attr('min', today);
+    
+            // Form submit handler
+            $("#submit-form").submit((e) => {
+                e.preventDefault();
+                
+                let formValid = true;
+                const requiredFields = [
+                    '#name',
+                    '#phone_num',
+                    '#street1',
+                    '#city',
+                    '#state',
+                    '#zip',
+                    '#square_footage',
+                    '#bedrooms',
+                    '#bathrooms',
+                    '#service_type',
+                    '#service_date'
+                ];
+    
+                // Clear previous error messages
+                $('.error-message').remove();
+                $('#warning-message').hide(); // Hide the warning message initially
+    
+                // Initialize an array to hold missing field names
+                const missingFields = [];
+    
+                // Check required fields
+                requiredFields.forEach((selector) => {
+                    const inputField = $(selector);
+                    if (!inputField.val()) {
+                        formValid = false;
+                        inputField.after('<span class="error-message" style="color:red;">This field is required</span>');
+                        // Add the field label to the missingFields array
+                        const label = inputField.prev('label').text();
+                        missingFields.push(label);
+                    }
+                });
+    
+                // If form is not valid, show the warning message
+                if (!formValid) {
+                    $('#warning-message').html("Please fill out the following required fields: " + missingFields.join(", "));
+                    $('#warning-message').show();
+                    return;
+                }
+    
+                // Show the loader
+                $("#loader").show();
+    
+                // Disable the submit button to prevent multiple clicks
+                const submitButton = $(".submit_btn button");
+                submitButton.prop("disabled", true);
+                submitButton.text("Submitting...");
+    
+                $.ajax({
+                    url: "https://script.google.com/macros/s/AKfycbyZvUYLYnuurUdLWNc6NQV4iFa5wi24Msx_hA5PrSmebpxJDcSPayJL6Ih-F-8zEXdT/exec",
+                    data: $("#submit-form").serialize(),
+                    method: "post",
+                    success: function (response) {
+                        // Hide the loader after success
+                        $("#loader").hide();
+    
+                        // Show the custom modal instead of alert
+                        $("#success-modal").fadeIn();
+    
+                        // Close modal on button click or X close
+                        $(".close, #close-modal-btn").click(function () {
+                            $("#success-modal").fadeOut();
+                            window.location.reload(); // Reload after modal is closed
+                        });
+                    },
+                    error: function (err) {
+                        // Hide the loader after error
+                        $("#loader").hide();
+                        alert("Something went wrong");
+                    },
+                    complete: function () {
+                        // Re-enable the submit button after the request is complete
+                        submitButton.prop("disabled", false);
+                        submitButton.text("Submit");
+                    }
+                });
+            });
+        });
+    </script>
+    
+
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
