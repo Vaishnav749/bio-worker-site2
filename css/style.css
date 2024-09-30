@@ -457,7 +457,7 @@ h3 {
   background: #19DDBC;
   color: #fff;
   display: inline-block;
-  padding: 11px 29px 13px 29px;
+  padding: 11px 29px 11px 29px;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -491,7 +491,7 @@ h3 {
 /* line 52, ../../Arafath/CL/December/234. Finance/HTML/scss/_btn.scss */
 .boxed-btn4 {
   display: inline-block;
-  padding: 11px 29px 13px 29px;
+  padding: 11px 29px 11px 29px;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -1190,7 +1190,7 @@ h3 {
 
 /* line 151, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu {
-  text-align: center;
+  text-align: right;
 }
 
 /* line 154, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
@@ -8355,5 +8355,28 @@ p {
 .modal-btn:hover {
   background-color: #45a049;
 }
+.parent-container {
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 auto;    /* Center the container */
+  padding: 15px;     /* Optional: Padding for spacing */
+}
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.col-12, .col-sm-6, .col-lg-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px; /* Adds spacing between rows */
+}
+
+/* Adjust image size to make them uniform */
+.thumbnail-classic-figure img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
 /*# sourceMappingURL=style.css.map */
