@@ -8371,7 +8371,7 @@ p {
 .col-12, .col-sm-6, .col-lg-4 {
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 20px; /* Adds spacing between rows */
+  /* margin-bottom: 20px; */
 }
 
 /* Adjust image size to make them uniform */
