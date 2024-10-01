@@ -7454,7 +7454,7 @@ h6 {
   padding: 10px 15px;
   min-width: 230px;
   transform: translate3d(-50%, 0, 0);
-  background: #ffffff;
+  /* background: #ffffff; */
   pointer-events: none;
   transition: all 0.3s ease;
   border-radius: 0 0 15px 15px;
